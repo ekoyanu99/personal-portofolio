@@ -20,12 +20,12 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/bookshelf.png";
+import projectImage2 from "./assets/projects/budiDao.png";
+import projectImage3 from "./assets/projects/buymeAcoffee.png";
+import projectImage4 from "./assets/projects/cryptoverse.png";
+import projectImage5 from "./assets/projects/tokenSwap.png";
+import projectImage6 from "./assets/projects/adminPodomoro.png";
 
 // Logos
 export const logos = {
@@ -36,9 +36,12 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Eko Yanuarso Budi",
-  tagline: "I build things for web",
+  tagline: "I build and currently learning WEB3",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am currently studying at the Purwokerto Telkom Institute of Technology majoring in Informatics
+Engineering. I am very passionate about learning and making web applications. I recently tried to learn
+ReactJS and Web3. I believe that Web3 and blockchain will be widely adopted and benefited from sooner or
+later.`,
 };
 
 // Enter your Social Media URLs here
@@ -52,43 +55,43 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Community Officer",
+    Company: `Litedex Protocol`,
+    Location: "Jakarta",
+    Type: "Internship",
+    Duration: "Nov 2022 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Independent Study",
+    Company: `BISA AI Academy`,
+    Location: "Bandung",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Aug 2022 - Dec 2022",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Community Angel",
+    Company: `Harmony`,
+    Location: "Mountain View, CA",
+    Type: "Freelance",
+    Duration: "Jul 2020 - Jan 2021",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
+  // {
+  //   Position: "Frontend Development",
+  //   Company: "Udemy, YouTube, Google, Medium",
+  //   Location: "Online",
+  //   Type: "Full Time",
+  //   Duration: "Jan 2022 - Present",
+  // },
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Informatics Engineering",
+    Company: `Institut Teknologi Telkom Purwokerto`,
+    Location: "Banyumas",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
-  },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Sep 2019 - Present",
   },
 ];
 
@@ -113,58 +116,52 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Bookshelf App",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is project submission for class on Dicoding, user can input title, writer, year, and boolean read or no`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
+    title: "BudiDAO",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `BudiDAO like another Decentralized Autonomos this part of learn buildspace x thirdweb, user who hold BudiDAO NFT can particiate proposal `,
+    techstack: "ReactJS, Solidity for SmartContract",
+    previewLink: "https://budi-dao.vercel.app/",
+    githubLink: "https://github.com/ekoyanu99/dao-dashboard",
   },
   {
-    title: "Project title 3",
+    title: "BuyMeACoffee Using Ethereum",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `This is part of Weekly Learning Alchemy i made smartcontract deploy, get abi then use ABI on web, user can send tip to the deployer which is me and i can withdaw money (Ethereum goerli testnet) `,
+    techstack: "NextJS, Solidity for SmartContract",
+    previewLink: "",
+    githubLink: "https://github.com/ekoyanu99/BuyMeACoffee-dApp",
   },
   {
-    title: "Project title 4",
+    title: "CryptoVerse",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Crypto verse is a web that you can know about Global Crypto Stats data by RapidAPI, on the page News i made user can search by Crypto tag that user want, only top 100 crypto shown `,
+    techstack: "ReactJS, RapidAPI",
+    previewLink: "https://crypto-verse-rosy.vercel.app/",
+    githubLink: "https://github.com/ekoyanu99/crypto-verse",
   },
   {
-    title: "Project title 5",
+    title: "TokenSwap",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `This is simple token swap website part of Weekly Learning Challengen Alchemy - Build Dapp tokenswap with 0x api, user can connect and see realtime price on this Dapp `,
+    techstack: "HTML/CSS, JavaScript, 0xZero API",
+    previewLink: "",
+    githubLink: "https://github.com/ekoyanu99/token-swap",
   },
   {
-    title: "Project title 6",
+    title: "Admin Podomoro",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `This is project admin podomoro for submission fullstack development class MSIB Bisa AI Batch 3, database using mongoDB atlas, client podomoro fetching data api by admin `,
+    techstack: "JavaScript, EJS, Bootstrap",
+    previewLink: "",
+    githubLink: "https://github.com/ekoyanu99/server-podomoro",
   },
 ];
 
