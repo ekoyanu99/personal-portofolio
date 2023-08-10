@@ -26,6 +26,8 @@ import projectImage3 from "./assets/projects/buymeAcoffee.png";
 import projectImage4 from "./assets/projects/cryptoverse.png";
 import projectImage5 from "./assets/projects/tokenSwap.png";
 import projectImage6 from "./assets/projects/adminPodomoro.png";
+import projectImage7 from "./assets/projects/polyvote.png";
+import projectImage8 from "./assets/projects/iKhlas.png";
 
 // Logos
 export const logos = {
@@ -38,10 +40,7 @@ export const personalDetails = {
   name: "Eko Yanuarso Budi",
   tagline: "I build and currently learning WEB3",
   img: profile,
-  about: `I am currently studying at the Purwokerto Telkom Institute of Technology majoring in Informatics
-Engineering. I am very passionate about learning and making web applications. I recently tried to learn
-ReactJS and Web3. I believe that Web3 and blockchain will be widely adopted and benefited from sooner or
-later.`,
+  about: `I earned a bachelor's degree in computer engineering after successfully completing my studies at the Institut Teknologi Telkom Purwokerto. I gained expertise in creating web applications while in college and kept learning new technologies like ReactJS and Web3. Decentralized applications and blockchain, in my opinion, will be crucial in determining how the web develops in the future. With my aptitude for problem-solving, experience in company growth, and knowledge of community management, I am certain that I can provide something of value to any team.`,
 };
 
 // Enter your Social Media URLs here
@@ -55,11 +54,18 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Business Development And Community",
+    Company: `Litedex Protocol`,
+    Location: "Jakarta",
+    Type: "Contract",
+    Duration: "Mar 2023 - Apr 2023",
+  },
+  {
     Position: "Community Officer",
     Company: `Litedex Protocol`,
     Location: "Jakarta",
     Type: "Internship",
-    Duration: "Nov 2022 - Present",
+    Duration: "Nov 2022 - Feb 2023",
   },
   {
     Position: "Independent Study",
@@ -90,8 +96,8 @@ export const eduDetails = [
     Position: "Informatics Engineering",
     Company: `Institut Teknologi Telkom Purwokerto`,
     Location: "Banyumas",
-    Type: "Full Time",
-    Duration: "Sep 2019 - Present",
+    Type: "Bachelor",
+    Duration: "Sep 2019 - Aug 2023",
   },
 ];
 
@@ -116,12 +122,28 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "PolyVote",
+    image: projectImage7,
+    description: `PolyVote is e-voting using smart contract blockchain polygon`,
+    techstack: "ReactJS, Smart Contract, Blockchain",
+    previewLink: "https://vote.blockchainscope.xyz/",
+    githubLink: "https://github.com/ekoyanu99/poly-vote",
+  },
+  {
+    title: "iKhlasXYZ",
+    image: projectImage8,
+    description: `This is project submission for BNSP Certification Junior Web Developer`,
+    techstack: "PHP, CSS",
+    previewLink: "",
+    githubLink: "https://github.com/ekoyanu99/iKhlasXYZ",
+  },
+  {
     title: "Bookshelf App",
     image: projectImage1,
     description: `This is project submission for class on Dicoding, user can input title, writer, year, and boolean read or no`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://bookshelf-apps-liard.vercel.app/",
+    githubLink: "https://github.com/ekoyanu99/bookshelf-apps",
   },
   {
     title: "BudiDAO",
@@ -151,8 +173,8 @@ export const projectDetails = [
     title: "TokenSwap",
     image: projectImage5,
     description: `This is simple token swap website part of Weekly Learning Challengen Alchemy - Build Dapp tokenswap with 0x api, user can connect and see realtime price on this Dapp `,
-    techstack: "HTML/CSS, JavaScript, 0xZero API",
-    previewLink: "",
+    techstack: "HTML/CSS, JavaScript, 0xZero & 1Inch API",
+    previewLink: "https://dex.blockchainscope.xyz/",
     githubLink: "https://github.com/ekoyanu99/token-swap",
   },
   {

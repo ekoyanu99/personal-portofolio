@@ -57,7 +57,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center ">
+    <main id="home" className="container mx-auto max-width pt-36 pb-40 md:flex justify-between items-center " style={{ marginTop: "80px", zIndex: 5 }}>
       <div>
         <h1
           ref={h11}

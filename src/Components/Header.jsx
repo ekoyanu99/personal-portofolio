@@ -10,11 +10,11 @@ function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width dark:bg-dark-mode">
-      <div className="flex justify-between items-center py-2 md:py-10">
-        <NavLink to="/">
-          <img className="w-20" src={logos.logogradient} alt="logo" />
-        </NavLink>
+    <header className="container mx-auto md:flex justify-between fixed top-0 py-1 max-width dark:bg-dark-mode" style={{zIndex: 100}} >
+      <div className="flex items-center justify-between my-5 md:my-0 md:space-x-5 md:mr-5">
+        <a href="#home">
+          <img className="w-15" src={logos.logogradient} alt="logo" />
+        </a>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
             className="stroke-dark-heading dark:stroke-white md:hidden"
@@ -36,29 +36,29 @@ function Header() {
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
+            <a href="#home" onClick={toggleClass}>
               Home
-            </NavLink>
+            </a>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass}>
+            <a href="#about" onClick={toggleClass}>
               About
-            </NavLink>
+            </a>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
+            <a href="#technologies" onClick={toggleClass}>
               Technologies
-            </NavLink>
+            </a>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/projects" onClick={toggleClass}>
+            <a href="#projects" onClick={toggleClass}>
               Projects
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink to="/contact" onClick={toggleClass}>
+            <a href="#contact" onClick={toggleClass}>
               Contact
-            </NavLink>
+            </a>
           </li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
